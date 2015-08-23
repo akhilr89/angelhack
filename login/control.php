@@ -27,7 +27,7 @@ header("location: profile1.php");
 				<br/>
 				<input id="password" name="password" placeholder="Your Password" type="password" required>
 				<br/>
-				<input name="submit" type="submit" value=" Login ">
+				<input name="submit" type="submit" value=" Login " class="button">
 				<script type="text/javascript">
 				$('form').submit(function(){
     $(this).children('input[type=submit]').prop('disabled', true);
